@@ -1,0 +1,104 @@
+#PYTHON GENERAL
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+*.pid
+*.seed
+*.sqlite3
+
+# ENVIRONMENTS
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+.venv.bak/
+.ipynb_checkpoints
+
+#DATA FILES
+data/raw/*
+data/processed/*
+!data/.gitkeep     # Keep folder structure
+*.csv
+*.json
+*.xlsx
+*.xls
+*.db
+
+# BUILD & DEPLOYMENT
+dist/
+build/
+*.egg-info/
+*.spec
+*.manifest
+
+#NOTEBOOKS
+*.ipynb_checkpoints
+*.ipynb_save
+*.ipynb_convert
+**/.ipynb_checkpoints/
+
+#FASTAPI / UVICORN
+*.log
+*.db-journal
+*.sqlite
+__pycache__/
+*.pytest_cache/
+*.coverage
+.coverage
+.cache/
+*.dat
+*.csv
+*.tsv
+
+#IDE FILES
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+#TEST FILES
+tests/__pycache__/
+test_output/
+coverage.xml
+pytest_cache/
+nosetests.xml
+htmlcov/
+
+#PROJECT-SPECIFIC
+config.yaml
+settings.yaml
+credentials.json
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+*.zip
+
+#YSTEM FILES
+.DS_Store
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.bak
+*.old
+*.orig
